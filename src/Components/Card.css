@@ -1,0 +1,77 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.card-arrow-home {
+  border: solid 1px blue;
+  width: 10%;
+  height: 100px;
+}
+
+.card-div-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #EAF688;
+  width: 70%;
+  height: 10rem;
+  margin-right: 10%;
+  margin-left: 0.5rem;
+
+  transition-duration: 500ms;
+}
+
+.card-div-container:hover {
+
+  border-radius: 10px;
+  background-color: #846FFA;
+  width: 70.1%;
+  height: 11rem;
+
+  transition-duration: 500ms;
+}
+
+
+.button {
+  border: none;
+  border-radius: 5px;
+  font-weight: 900;
+  font-size: medium;
+  color: white;
+  background-color: #846FFA;
+  width: 20%;
+  height: 4rem;
+  transition-duration: 200ms;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: #846FFA;
+  background-color: #EAF688;
+  transition-duration: 200ms;
+
+}
+
+.button:active {
+  color: #846FFA;
+  transition-duration: 200ms;
+  background-color: white;
+}
+
+.input-text {
+  height: 3.2rem;
+  width: 60%;
+  margin: 0 1rem 0 0;
+  color: #846FFA;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  padding-left: 1rem;
+  background-color: white;
+  border: none;
+}
