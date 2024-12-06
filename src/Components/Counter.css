@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10rem;
+  width: 100%
+}
+
+.container:hover {
+  color: #846ffa;
+  transition-duration: 240ms;
+
+  .span-counter {
+    font-size: 2.2em;
+    transition-duration: 240ms;
+    color: #5646af;
+  }
+
+
+
+}
+
+
+.span-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  font-size: 2em;
+  color: #846ffa;
+  transition-duration: 240ms;
+}
