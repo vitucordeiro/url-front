@@ -2,79 +2,135 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
   width: 100%;
-  margin-top: 3rem;
+  animation-duration: 200ms;
+  margin-top: 1rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  animation-duration: 200ms;
+  margin-top: 2rem;
+}
+
+
+.div-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+
+.arrow-left {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  color: #846ffa;
 }
 
 .card-arrow-home {
-  border: solid 1px blue;
-  width: 10%;
-  height: 100px;
+  width: auto
 }
 
 .card-div-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #eaf688;
+  height: 10rem;
+  width: 60%;
+  transition: 200ms;
+}
+
+.card-div-container:hover {
+  border-radius: 10px;
+  background-color: #846ffa;
+  height: 11rem;
+}
+
+.card-div-container-result {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  background-color: #EAF688;
-  width: 70%;
-  height: 10rem;
-  margin-right: 10%;
-  margin-left: 0.5rem;
-
-  transition-duration: 500ms;
+  background-color: #eaf688;
+  width: 60%;
+  height: 10em;
+  transition: all 200ms;
 }
 
-.card-div-container:hover {
-
+.card-div-container-result:hover {
   border-radius: 10px;
-  background-color: #846FFA;
-  width: 70.1%;
+  background-color: #846ffa;
+  width: 61%;
+  animation-duration: 200ms;
   height: 11rem;
-
-  transition-duration: 500ms;
 }
 
-
-.button {
-  border: none;
-  border-radius: 5px;
-  font-weight: 900;
-  font-size: medium;
-  color: white;
-  background-color: #846FFA;
-  width: 20%;
-  height: 4rem;
-  transition-duration: 200ms;
-}
-
-.button:hover {
-  cursor: pointer;
-  color: #846FFA;
-  background-color: #EAF688;
-  transition-duration: 200ms;
-
-}
-
-.button:active {
-  color: #846FFA;
-  transition-duration: 200ms;
-  background-color: white;
-}
-
-.input-text {
+.result-text {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 3.2rem;
   width: 60%;
-  margin: 0 1rem 0 0;
-  color: #846FFA;
+  margin: 0 1rem;
+  color: #846ffa;
   border-radius: 5px;
   font-size: 1.4rem;
   padding-left: 1rem;
   background-color: white;
   border: none;
+  transition: all 200ms ease-in-out;
+}
+
+.result-text:hover {
+  cursor: pointer;
+  background-color: #846ffa;
+  color: white;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: medium;
+  color: white;
+  background-color: #846ffa;
+  width: 20%;
+  height: 4rem;
+  transition: all 200ms ease-in-out;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: #846ffa;
+  background-color: #eaf688;
+}
+
+.button:active {
+  color: #846ffa;
+  background-color: white;
+}
+
+.input-text {
+  height: 3.2rem;
+  width: 60%;
+  margin-right: 1rem;
+  color: #846ffa;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  padding-left: 1rem;
+  background-color: white;
+  border: none;
+  transition: all 200ms ease-in-out;
 }
