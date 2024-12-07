@@ -6,9 +6,8 @@ Hey! I made this project to practice *React* and some concepts that i don't know
 ![Home Screen](/assets/home.png)  
 ![Home Input](/assets/home-input.png)  
 ![Share page](/assets/share-page.png)  
-![Share input](/assets/share-input.png)  
+![Share input](/assets/share-copied.png)  
 
-  ![Analytics Dashboard](https://your-screenshot-url.com/dashboard.png)
 
 ---
 
