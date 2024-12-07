@@ -3,29 +3,14 @@
   left: 0;
   bottom: 0;
   width: 100%;
+
   margin-bottom: 1rem;
   font-size: 1.3rem;
   color: #846ffa;
   text-align: center;
 }
 
-.span {
-  font-size: 1.2em;
-  color: #846ffa;
-  font-weight: 100;
+.div-container:hover {
+  background-color: #eaf688;
 
-}
-
-.span-link {
-  color: #7461e4;
-  font-weight: 100;
-  font-size: 1em;
-}
-
-.span-link:hover {
-  color: #6350d1;
-}
-
-.span-link:active {
-  color: #7964ec;
 }
