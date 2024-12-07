@@ -1,0 +1,10 @@
+.container-information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.span-information {
+  color: #4e37d3;
+}
