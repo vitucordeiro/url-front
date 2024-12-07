@@ -134,3 +134,19 @@
   border: none;
   transition: all 200ms ease-in-out;
 }
+
+.span {
+  color: #846ffa;
+}
+
+.span-link {
+  color: #735fe6;
+}
+
+.span-link:hover {
+  color: #4f3cb8;
+}
+
+.span-link:active {
+  color: #7766d4;
+}

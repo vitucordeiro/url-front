@@ -1,9 +1,11 @@
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin-top: 10rem;
-  width: 100%
+  width: 100%;
+  color: #846ffa;
+
 }
 
 .container:hover {
