@@ -13,16 +13,13 @@ const Card: React.FC<CardProps> = ({ arrowToHome }) => {
   const navigation = useNavigate();
   const location = useLocation();
   const [longUrl, SetLongUrl] = useState('');
-  const [error, SetError] = useState('');
   const [isLoading, SetIsLoading] = useState(false);
-  const [shortenUrl, SetShortenUrl] = useState('');
   const [isCopied, SetIsCopied] = useState(false);
 
   const urlRegex = /^(https?:\/\/)?([a-z0-9-]+\.)+[a-z0-9]{2,}(\/[^\s]*)?$/i;
 
   async function fetchData(url: string) {
     SetIsLoading(true)
-    SetError('');
 
     //TODO: add env variable 
     const response = await fetch("http://localhost:8080/create", {
@@ -33,7 +30,6 @@ const Card: React.FC<CardProps> = ({ arrowToHome }) => {
       body: JSON.stringify({ longUrl: url })
     })
     const data = await response.json();
-    SetShortenUrl(data.URI)
     SetIsLoading(false)
     navigation('/share', { state: { shortUrl: data.URI } })
   }
