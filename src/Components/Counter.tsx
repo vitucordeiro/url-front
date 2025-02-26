@@ -22,7 +22,9 @@ const Counter = () => {
   return (
     <>
       <div className="container">
-        <span className="span-counter">We currently shorten  {count} URL's! </span>
+
+        <span className="span-counter">We currently shorten  {!count ? 0 : count} URL's! </span>
+       
       </div>
     </>
   )
