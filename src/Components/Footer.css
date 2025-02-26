@@ -4,13 +4,10 @@
   bottom: 0;
   width: 100%;
 
-  margin-bottom: 1rem;
+
   font-size: 1.3rem;
-  color: #846ffa;
+  color: aliceblue;
   text-align: center;
+  background-color: #846ffa;
 }
 
-.div-container:hover {
-  background-color: #eaf688;
-
-}
