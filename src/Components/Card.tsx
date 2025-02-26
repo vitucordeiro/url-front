@@ -4,7 +4,7 @@ import './Card.css';
 import ArrowBack from "@mui/icons-material/ArrowBack";
 import { CircularProgress, } from "@mui/material";
 import { useNavigate, useLocation, Link } from "react-router";
-import LaunchIcon from '@mui/icons-material/Launch';
+
 type CardProps = {
   arrowToHome: boolean
 }
@@ -75,9 +75,7 @@ const Card: React.FC<CardProps> = ({ arrowToHome }) => {
         </div >
         <div className="div-description">
           <span className="span">Track your new shorten Url
-            <Link to={'/track'} className="span-link">
-              <LaunchIcon />
-            </Link>
+            <Link to={'/track'} className="span-link"/>
           </span>
         </div>
       </>)
