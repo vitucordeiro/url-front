@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Counter.css"
 const Counter = () => {
+  //TODO: Add local Storage to remember count value
   const [count, SetCount] = useState();
   useEffect(() => {
     async function fetchData() {
